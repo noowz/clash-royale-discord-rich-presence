@@ -1,6 +1,6 @@
 {
 	"name": "clash-royale-discord-rich-presence",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"private": true,
 	"description": "Discord Rich Presence that shows on your profile your Clash Royale statistics.",
 	"main": "src/index.js",
