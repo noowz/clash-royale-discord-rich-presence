@@ -3,22 +3,5 @@
 		"clashroyale": {
 			"base_url": "https://api.clashroyale.com/v1"
 		}
-	},
-	"auth": {
-		"discord": {
-			"rpc": {
-				"client_id": "844279952387866674"
-			}
-		},
-		"clashroyale": {
-			"api": {
-				"token": "YOUR API KEY"
-			}
-		}
-	},
-	"settings": {
-		"player": {
-			"player_tag": "YOUR PLAYER TAG"
-		}
 	}
 }
