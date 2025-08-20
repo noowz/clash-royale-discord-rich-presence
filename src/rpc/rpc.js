@@ -92,11 +92,6 @@ const rpc = async function setActivity(client) {
 		"Ultimate Champion"
 	];
 
-	const royals2v2Leagues = [
-		"Casual",
-		"Competitive"
-	];
-
 	const app = await gplay.app({
 		appId: "com.supercell.clashroyale"
 	});
@@ -105,7 +100,7 @@ const rpc = async function setActivity(client) {
 		pid: process.pid,
 		activity: {
 			details: `⭐ Level: ${player.expLevel} • 🏆 Trophies: ${player.trophies}/${player.bestTrophies} • 🛕 Arena: ${arenas.indexOf(player.arena.name)}`,
-			state: `🏅 Path of Legends: ${player.currentPathOfLegendSeasonResult ? pathOfLegendsleagues[player.currentPathOfLegendSeasonResult.leagueNumber - 1] : pathOfLegendsleagues[0]} • 🏅 2v2 League: ${Object.keys(player.progress).length === 0 ? royals2v2Leagues[0] : player.progress.Royals_2v2_2025.arena.name}`,
+			state: `🏅 Path of Legends: ${player.currentPathOfLegendSeasonResult ? pathOfLegendsleagues[player.currentPathOfLegendSeasonResult.leagueNumber - 1] : pathOfLegendsleagues[0]}`,
 			timestamps: {
 				start: startDate
 			},

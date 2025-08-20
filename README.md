@@ -22,7 +22,7 @@
 
 ## **🖼️ Preview**
 
-![Discord Rich Presence](https://i.imgur.com/SrmqKGW.png)
+![Discord Rich Presence](https://i.imgur.com/y6SrAF4.png)
 
 ---
 
