@@ -1,0 +1,7 @@
+{
+	"apis": {
+		"clashroyale": {
+			"base_url": "https://api.clashroyale.com"
+		}
+	}
+}
